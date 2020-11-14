@@ -1,6 +1,6 @@
 # dind-gitlab-runner
 
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/etnguyen03/dind-gitlab-runner) ![Docker Image Size](https://img.shields.io/docker/image-size/etnguyen03/dind-gitlab-runner) ![Docker Pulls](https://img.shields.io/docker/pulls/etnguyen03/dind-gitlab-runner)
+![Docker Build Status](https://github.com/etnguyen03/dind-gitlab-runner/workflows/Docker/badge.svg) ![Docker Image Size](https://img.shields.io/docker/image-size/etnguyen03/dind-gitlab-runner) ![Docker Pulls](https://img.shields.io/docker/pulls/etnguyen03/dind-gitlab-runner)
 
 Runs a Gitlab Runner instance, along with all the necessary stuff to run Docker
 containers, all inside a Docker container.
