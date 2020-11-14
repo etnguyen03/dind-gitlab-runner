@@ -21,7 +21,7 @@ directories can be used as volumes.
 For Docker in Docker to work, you will need the `--privileged` flag.
 
 ```bash
-docker run -d --restart=unless-stopped --name=gitlab-runner -v $PWD/gitlab-runner:/etc/gitlab-runner -v $PWD/docker:/root/.docker --privileged dind-gitlab-runner
+docker run -d --restart=unless-stopped --name=gitlab-runner -v $PWD/gitlab-runner:/etc/gitlab-runner -v $PWD/docker:/root/.docker --privileged etnguyen03/dind-gitlab-runner
 ```
 
 Then, you will need to
