@@ -31,7 +31,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: false
-          platforms: linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6
+          platforms: linux/amd64,linux/arm64/v8 
         
   # Push image to GitHub Packages.
   # See also https://docs.docker.com/docker-hub/builds/
@@ -68,7 +68,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          platforms: linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6 
+          platforms: linux/amd64,linux/arm64/v8 
           pull: true
           push: true
           cache-from: type=registry,ref=etnguyen03/dind-gitlab-runner:latest
@@ -87,7 +87,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          platforms: linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6
+          platforms: linux/amd64,linux/arm64/v8 
           pull: true
           push: true
           cache-from: type=registry,ref=ghcr.io/etnguyen03/dind-gitlab-runner:latest
